@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+}
+#dashboardmaincontainer{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard_sidebar{
+    max-width: 30%;
+    background: #323232;
+    height: 120vh;
+}
+.dashboard_content_container{
+    width: 100%;
+    background: #f4f6f9;
+}
+h3.dashboard_logo{
+    font-size: 100px;
+    color: #f685a1;
+    text-align: center;
+    margin: 0px;
+}
+.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-right: 60px;
+}
+.dashboard_sidebar_user img{
+    width: 60px;
+    height: 50%;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid #f685a1;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+ 
+.dashboard_sidebar_user span{
+    position:absolute;
+    top: 20%;
+    display:inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.dashboard_menu_lists{
+    text-align: left;
+}
+#dashboard_sidebar_menus ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
+    unicode-bidi: isolate;
+}
+
+.dashboard_sidebar_menus ul :hover{
+    background: #f685a1;
+    color: #fff;
+    transition: 0.3s all;
+}
+.dashboard_sidebar_menus li{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin: auto 0;
+}
+.dashboard_sidebar_menus  li a{
+    text-decoration: none;
+    color: white;
+    margin: auto 0;
+}
+.dashboard_sidebar_menus i{
+    padding: 5px;
+}
+.dashboard_sidebar_menus  li a{
+    font-size: 20px;
+    margin: auto 0;
+}
+.dashboard_sidebar_menus ul li{
+    list-style-type: none;
+}
+
+.dahsboard_topnav {
+    background: #fff;
+    padding: 20px;
+}
+.dahsboard_topnav a{
+    color: #848384;
+    font-size: 18px;
+    text-decoration: none;
+}
+#logout_btn{
+    float: right;
+}
+.dashboard_content{
+    padding: 50px 10px 10px  10px;
+}
+.dahsboard_content_main{
+    background: #fff;
+    min-height: 800px;
+    height: 100%;
+}

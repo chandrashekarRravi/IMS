@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0;
+}
+.header{
+    width: 100%;
+    height: 10px;
+    background: #fa69b4;
+    padding: 20px 0px;
+    padding-left: 70%;
+}
+.header a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;  
+}
+.header a :hover{
+    font-weight: bold;
+    border: #fff 2px solid;
+}
+.banner{
+    background-image: url(./images/homepage-banner-img.jpg);
+    background-size:cover;
+    padding-top: 160px;
+    padding-bottom :100px;
+    height: 70vh;
+}
+.homepagecontaiter{
+    width: 100%;
+    max-width: 900px;
+    margin:auto 0;
+}
+.banner-header h1{
+    font-size: 90px;
+    color: #f992c8;
+    padding-left: 420px;
+    margin: auto 0px;
+    max-width: 0px;
+}
+.banner-header p{
+    font-size: 30px;
+    color: #fa69b8;
+    text-transform: uppercase;
+    padding-left: 420px;
+    margin: auto 0px;
+    
+}
+.banner-tagline{
+    font-size: 20px;
+    max-width: fit-content;
+    text-align:left;
+    color: white;
+    padding-left: 420px;
+    padding-right: 350px;
+    padding-top: 40px;
+}
+.bannericons{
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.bannericons a{
+    font-size: 23px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background:  rgba(0, 0, 0,0.5);
+    color: #868485;
+    border-radius: 50px; 
+    max-width: 20px;
+    height: 30px;
+    display: inline-block;
+}
+.bannericons a  :first-child{
+    margin: left 0px;
+}
+.bannericons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: #f685a1;
+    transition: 0.5 all;
+}
+.homepagefeatures{
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: row;
+    padding-top: 350px;
+    
+}
+.homepagefeature{
+    text-align: center;
+    padding: 10px 20px;
+}
+.homepagefeature span.feature-icon{
+    width: 45px;
+    height: 55px;
+    font-size: 25px;
+    display: inline-block;
+    font-size: 40px;
+    background: #f685a1;
+    color: #fff;
+    padding-left:15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.homepagefeature h3.feature-title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.homepagefeature h3.feature-title :hover{
+    font-weight: bold;
+    color: #f8a4f8;
+    transition: all 0.3s;
+}
+.homepagefeature p.feature-description{
+    font-size: 20px;
+}
+.homeNotified{
+    background-color: #e3e3e3;
+    padding-bottom: 50px;
+}
+.emailform{
+    text-align: center;
+}
+.emailform input{
+    border: 2px solid #ffffff;
+    border-radius : 10px;
+    width: 25%;
+    padding: 15px 10px;
+}
+.emailform input :focus{
+    outline: none;
+}
+.emailform button{
+    position: absolute;
+    height: 50px;
+    padding: 0px 20px;
+    right: 15;
+    background: #fa69b4;
+    color: white;
+    border-color: #fa69b4;
+    border-radius: 8px;
+}
+
+.emailform h3{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 25px;
+}
+.emailform p{
+    font-size: 20px;
+}
+.social{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.socialicons a{
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 10px;
+    
+   margin: 20px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    font-size: 29px;
+    margin-left: 20px;
+}
+.socialicons a :hover{
+    font-weight:bolder;
+    background: #d4d4d4;
+     transition:  0.3s all;
+}
+.social li :hover{
+    background: #d4d4d4;
+    transform: 0.3s all;
+}
+
+.social h3{
+    font-size: 30px;
+}
+.social p{
+    color: #868485;
+    font-size: 18px;
+}
+.fotter{
+    text-align: center;
+}
+.fottercontents {
+    
+    background: #e3e3e3e3;
+    padding: 40px;
+}
+.fottercontents a{
+    margin: 20px;
+    color: #868485;
+    text-decoration: none;
+}
+.fottercontents :hover{
+    font-weight: bold;
+    color: #f8a4f8;
+    transition: all 0.5s;
+    cursor: pointer;
+}

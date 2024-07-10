@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+  background-image: url(./images/login-background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Titillium Web", sans-serif;
+}
+.loginHeader{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.loginHeader h1{
+    color: rgb(231, 151, 164);
+    font-size: 70px;
+    padding: 10px;
+    margin: 0px;
+}
+.loginHeader p{
+    color:#ffdae3;
+    font-size: 60px;
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase ;
+    padding: 10px;
+}
+.loginHeader p::after{
+    content: '';
+    display: block;
+    height: 3px;
+    background: rgb(231, 151, 164);
+    margin: 0 auto ;
+}
+.loginBody form{
+    background:rgba(0,0,0,.5);
+    padding: 40px;
+    margin: 0px auto;
+    width: 450px;
+    border:#ffdae3 solid 3px;
+    border-radius: 10px;
+}
+.logininputcontainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.logininputcontainer input{
+    height: 20px;
+    width: 100%;
+    border: 2px solid #696be9;
+    border-radius: 5px;
+    font-size: small;
+    padding: 5px;
+}
+.loginButton button{
+    font-size: 15px ;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: #f8a6f8;;
+    border-radius: 12px;
+    border: none;
+}
+.loginButton{
+    margin-left: 140px;
+}
+.loginButton a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.loginButton button :hover{
+    transition: all 0.3s;
+}
+.input-group   {
+    padding-bottom: 30px;
+    width: 100%;
+}
+.clickhere{
+    padding-left: 130px;
+    padding-top: 20px;
+}
+.clickhere a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
